@@ -1,0 +1,324 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    box-sizing: inherit;
+    line-height: inherit;
+    background-color: #f4f4f4;
+    min-height: 100%;
+}
+footer {
+    position: fixed;
+    background: #142628;
+    font-size: 14px;
+    line-height: 20px;
+    column-gap: 16px;
+    padding: 3px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #f4f4f4;
+    font-family: Roboto, system-ui, sans-serif;
+}
+.short {
+    background-color: #f9fafb;
+    display: inline-block;
+    margin-right: 20px;
+    height: 664px;
+    width: 341.33px;
+    border-radius: 15px;
+    vertical-align: top;
+}
+.short-shirt,
+.short-shirtback, 
+.long-shirt,
+.long-shirtback,
+.hoodie-front,
+.hoodie-back {
+    height: 320px;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    display: block;
+    width: 100%;
+}
+.cap-img {
+    height: 240px;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+    display: block;
+}
+
+.canvas-bag {
+    width: 300px;
+    display: block;
+    margin-top: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.des-short {
+    background-color: #f9fafb;
+    padding-left: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 32px;
+    font-family: Roboto, system-ui, sans-serif;
+    box-shadow: 0px 5px 0px rgb(234, 231, 231);
+    border-radius: 15px;
+}
+
+.long {
+    background-color: #f9fafb;
+    display: inline-block;
+    margin-right: 20px;
+    height: 664px;
+    width: 341.33px;
+    border-radius: 15px;
+}
+.des-long {
+    background-color: #f9fafb;
+    border-radius: 15px;
+    padding-left: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 32px;
+    font-family: Roboto, system-ui, sans-serif;
+    box-shadow: 0px 5px 0px rgb(234, 231, 231);
+}
+
+.hoodie {
+    background-color: #f9fafb;
+    display: inline-block;
+    height: 664px;
+    width: 341.33px;
+    border-radius: 15px;
+}
+
+.des-hoodie {
+    background-color: #f9fafb;
+    padding-left: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 32px;
+    font-family: Roboto, system-ui, sans-serif;
+    border-radius: 15px;
+    box-shadow: 0px 5px 0px rgb(234, 231, 231);
+}
+
+.cap {
+    background-color: #f9fafb;
+    display: inline-block;
+    width: 341.33px;
+    margin-top: 60px;
+    border-radius: 15px;
+}
+
+.des-cap {
+    background-color: #f9fafb;
+    padding-left: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 32px;
+    font-family: Roboto, system-ui, sans-serif;
+    border-radius: 15px;
+    vertical-align: top;
+    box-shadow: 0px 5px 0px rgb(234, 231, 231);
+}
+.bag {
+    background-color: #f9fafb;
+    display: inline-block;
+    height: 336px;
+    width: 341.33px;
+    margin-top: 70px;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+.des-bag {
+    background-color: #f9fafb;
+    padding-left: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-right: 32px;
+    font-family: Roboto, system-ui, sans-serif;
+    border-radius: 15px;
+    box-shadow: 0px 5px 0px rgb(234, 231, 231);
+}
+.products {
+    height: 1800px;
+    width: 1576px;
+    max-width: 1152px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.header {
+    background-color: #103F45;
+    width:100%;
+    padding-left: 48px;
+    padding-right: 48px;
+    min-height: 96px;
+    position: fixed;
+}
+.row-one {
+    height: 128px;
+    width: 1519.2px;
+}
+.no-orders {
+    background-color: #F87272;
+    height: 80px;
+    width: 512px;
+    color: #470000;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-bottom: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Roboto, system-ui, sans-serif;
+    
+}
+
+.illus-pp {
+    color: #949494;
+    font-style: italic;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 32px;
+    margin-right: 32px;
+    font-family: Roboto, system-ui, sans-serif;
+}
+.row-two {
+    margin: 0px 16px;
+}
+.row-four {
+    margin-bottom: 20px;
+    
+}
+.whole-body {
+    height: 1675px;
+    padding: 0px 12px;
+}
+.left-sec {
+    justify-content: flex-start;
+    line-height: 24px;
+    display: inline-flex;
+    align-items: center;
+}
+.shop {
+    height: 24px;
+    display: inline-block;
+}
+.cancel-btn {
+    height: 18px;
+    gap: 8px;
+
+}
+.unavai-pic,
+.unavai-pictwo,
+.unavai-picthree,
+.unavai-picfour,
+.unavai-picfive {
+    height: 24px;
+    margin-right: 8px;
+}
+
+.unavai-one,
+.unavai-two,
+.unavai-three,
+.unavai-four,
+.unavai-five {
+    display: inline-flex;
+    cursor: pointer;
+    user-select: none;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition-duration: 2s;
+    height: 48px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+    line-height: 16px;
+    min-height: 48px;
+    font-weight: 600;
+    background-color: #d1d2d3;
+    border: none;
+    border-radius: 8px;
+    margin-left: 65px;
+    color:#b4b4b6;
+}
+
+.miss-out{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    font-family: Roboto, system-ui, sans-serif;
+    margin-left: 175px;
+    margin-bottom: 4px;
+}
+.final-chance {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-family: Roboto, system-ui, sans-serif;
+    margin-left: 175px;
+    margin-bottom: 25px;
+}
+
+.cart {
+    background-color: #FFD92D;
+    color: #3c3100;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-size: 14px;
+    font-family: Roboto, system-ui, sans-serif;
+    border: none;
+    height: 48px;
+    width: 97.44px;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+.centre {
+    vertical-align: middle;
+}
+.copy-right{
+    margin-left: 20px;
+    display: inline-block;
+}
+.pic-cancel{
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 20px;
+}
+.words{
+    line-height: 25px;
+}
+.right-corner {
+    float: right;
+}
+.cs-logo {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Roboto, system-ui, sans-serif;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+.cs-society {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Roboto, system-ui, sans-serif;
+    margin-right: 1100px;
+}
+.logo {
+    width: 64px;
+}
